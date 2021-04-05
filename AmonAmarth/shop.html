@@ -1,0 +1,82 @@
+<!-- Start HTML -->
+<!DOCTYPE html>
+<!-- Sets language to english so that it can be understood by the majority of the world -->
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!-- Makes website mobile friendly -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- Tile of the webpage -->
+<title>Homepage</title>
+<!--below is a link to the css stylesheet that has been written for the site -->
+<link rel="stylesheet" href="Css/style.css" type="text/css">
+<!-- social media icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!--Body-->
+<body>
+<!-- logo and menu -->
+<div class="container">
+<div class="logo">
+<a href="homepage.html"><img src="Image/amon-logo-site.png" alt="logo"></a>
+</div>
+<!--Menu-->
+<div class="navbar">
+<div class="icon-bar" onclick="Show()">
+<i></i>
+<i></i>
+<i></i>
+</div>
+<ul id="nav-lists">
+<li class="close"><span onclick="Hide()">×</span></li>
+<li><a href="homepage.html">Home</a></li>
+<li><a href="tourdates.html">Tour</a></li>
+<li><a href="discography.html">Discography</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="shop.html">Shop</a></li>
+</ul>
+</div>
+</div>
+<!--Script to make the hambuger menu work -->
+<script>
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");}
+function Hide(){
+navList.classList.remove("_Menus-show");}
+</script>
+<!--Social media Navagation Bar-->
+<nav>
+  <a href="https://www.facebook.com/amonamarth" target="_blank" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/amonamarthband" target="_blank" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/amonamarth/" target="_blank" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/channel/UCS8-ccff2oGbG0Mx7UOuKYw?sub_confirmation=1" target="_blank" class="fa fa-youtube"></a>
+</nav>
+<!-- setting it out like this allows for sections -->
+<article>
+<!-- Title -->
+<section id="Title">
+<h1>Merchandise Store</h1>
+</section>
+<!--links to merchandise -->
+<section>
+<div class="row">
+<div class="column">
+<a href="https://amonamarth.tmstor.es/?lf=1ff8df77ed39f77207e198c863deaa3f">
+<img src="Image/merch-bundles.jpg" alt="Merch Bundles" width="100%"></a>
+</div>
+<div class="column">
+<a href="https://victoriousmerch.com">
+<img src="Image/official merch.jpg" alt="Offical Merchandise" width="100%"></a>
+</div>
+</div>
+</section>
+<section id="AboutBand">
+<p>Click on either of the two images abover to head on over to the two official merchandise stores</p>
+</section>
+</body>
+<!--Website Creator INFO-->
+<footer>Made By Dan Jacques Multimedia Coursework 2 P2610262 Email:P2610262@my365.dmu.ac.uk</footer>
+</html>
+<!-- End HTML -->

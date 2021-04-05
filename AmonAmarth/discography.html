@@ -1,0 +1,250 @@
+<!-- Start HTML -->
+<!DOCTYPE html>
+<!-- Sets language to english so that it can be understood by the majority of the world -->
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<!-- Makes website mobile friendly -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--Title of the webpage -->
+<title>Discography</title>
+<!--below is a link to the css stylesheet that has been written for the site -->
+<link rel="stylesheet" href="Css/style.css" type="text/css">
+<!-- social media icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!--Body-->
+<body>
+<!-- logo and menu -->
+<div class="container">
+<div class="logo">
+<a href="homepage.html"><img src="Image/amon-logo-site.png" alt="logo"></a>
+</div>
+<!--Menu-->
+<div class="navbar">
+<div class="icon-bar" onclick="Show()">
+<i></i>
+<i></i>
+<i></i>
+</div>
+<ul id="nav-lists">
+<li class="close"><span onclick="Hide()">×</span></li>
+<li><a href="homepage.html">Home</a></li>
+<li><a href="tourdates.html">Tour</a></li>
+<li><a href="discography.html">Discography</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="shop.html">Shop</a></li>
+</ul>
+</div>
+</div>
+<!--Script to make the hambuger menu work -->
+<script>
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");}
+function Hide(){
+navList.classList.remove("_Menus-show");}
+</script>
+ <!--Social media Navagation Bar-->
+<nav>
+<a href="https://www.facebook.com/amonamarth" target="_blank" class="fa fa-facebook"></a>
+<a href="https://twitter.com/amonamarthband" target="_blank" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/amonamarth/" target="_blank" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/channel/UCS8-ccff2oGbG0Mx7UOuKYw?sub_confirmation=1" target="_blank" class="fa fa-youtube"></a>
+</nav>
+<!-- setting it out like this allows for sections -->
+<article>
+<!-- Title -->
+<section id="Title">
+<h1>Discography</h1>
+</section>
+<!-- Slideshow -->
+<section>
+<!-- Container for the image gallery -->
+<div class="slideshow-container">
+<!-- Full-width images with number text -->
+<div class="mySlides">
+<div class="numbertext">1 / 11</div>
+<a href="OSFTGH.html"><img src="Image/AMon_Amarth_OSFTGH.jpg" alt="OSFTGH"style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">2 / 11</div>
+<a href="TheAvenger.html"><img src="Image/Amon_Amarth_The_avenger.jpg" alt="The Avenger"style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">3 / 11</div>
+<a href="TheCrusher.html"><img src="Image/Amon_amarth_crusher.jpg" alt="Crusher"style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">4 / 11</div>
+<a href="VersusTheWorld.html"><img src="Image/Versus_The_World.jpg" alt="VSTheWorld"style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">5 / 11</div>
+<a href="FateofNorms.html"><img src="Image/Amon_Amarth_-_Fate_Of_Norns_-_Album_Cover.jpg" alt="Fate of Norns"style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">6 / 11</div>
+<a href="Oden.html"><img src="Image/Amon_amarth_oden.jpg" alt="Oden"style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">7 / 11</div>
+<a href="Twilight.html"><img src="Image/Amon_Amarth_-_Twlight_of_the_Thunder_God.jpg" alt="TotTG" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">8 / 11</div>
+<a href="Surtur.html"><img src="Image/Amon_Amarth_Surtur_Rising_album_cover.jpg" alt="Surtur" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">9 / 11</div>
+<a href="Deceiver.html"><img src="Image/DeceiveroftheGodsAmonAmarth.jpg" alt="DotG" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">10 / 11</div>
+<a href="Jomsviking.html"><img src="Image/AmonAmarthJomsviking.jpg" alt="Jomsviking" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">11 / 11</div>
+<a href="Berserker.html"><img src="Image/Amon_Amarth_Berserker.jpg" alt="Berserker" style="width:100%">
+</div>
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!-- Image text -->
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+<!-- Thumbnail images -->
+<div class="row">
+<div class="column">
+<img class="demo cursor" src="Image/AMon_Amarth_OSFTGH.jpg" style="width:100%" onclick="currentSlide(1)" alt="Once Sent from the Golden Hall">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_Amarth_The_avenger.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Avenger">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_amarth_crusher.jpg" style="width:100%" onclick="currentSlide(3)" alt="The Crusher">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Versus_The_World.jpg" style="width:100%" onclick="currentSlide(4)" alt="Versus the World">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_Amarth_-_Fate_Of_Norns_-_Album_Cover.jpg" style="width:100%" onclick="currentSlide(5)" alt="Fate of Norns">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_amarth_oden.jpg" style="width:100%" onclick="currentSlide(6)" alt="With Oden on our Side">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_Amarth_-_Twlight_of_the_Thunder_God.jpg" style="width:100%" onclick="currentSlide(7)" alt="Twilight of the Thunder God">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_Amarth_Surtur_Rising_album_cover.jpg" style="width:100%" onclick="currentSlide(8)" alt="Surtur Rising">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/DeceiveroftheGodsAmonAmarth.jpg" style="width:100%" onclick="currentSlide(9)" alt="Deceiver of the Gods ">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/AmonAmarthJomsviking.jpg" style="width:100%" onclick="currentSlide(10)" alt="Jomsviking">
+</div>
+<div class="column">
+<img class="demo cursor" src="Image/Amon_Amarth_Berserker.jpg" style="width:100%" onclick="currentSlide(11)" alt="Berserker">
+</div>
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);}
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);}
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("demo");
+var captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;}
+</script>
+</section>
+<!-- Text Section -->
+<section class="Text">
+<p>Above you will find a slideshow of the Studio Albums By Amon Amarth
+click the album to find out the tracklist and
+where you can stream each album</p>
+<p>Alternativly you can follow the list bellow</p>
+<!-- Table for ease of access -->
+<table class="table">
+<tr>
+<th>Album</th>
+<th>Year</th>
+<th>Link</th>
+</tr>
+<tr>
+<td>One Sent from the Golden Hall</td>
+<td>1998</td>
+<td><a href="OSFTGH.html">Click Here!</td>
+</tr>
+<tr>
+<td>The Avenger</td>
+<td>1999</td>
+<td><a href="TheAvenger.html">Click Here!</td>
+</tr>
+<tr>
+<td>The Crusher</td>
+<td>2001</td>
+<td><a href="TheCrusher.html">Click Here!</td>
+</tr>
+<tr>
+<td>Versus the World</td>
+<td>2002</td>
+<td><a href="VersusTheWorld.html">Click Here!</td>
+</tr>
+<tr>
+<td>Fate of Norns</td>
+<td>2004</td>
+<td><a href="FateofNorms.html">Click Here!</td>
+</tr>
+<tr>
+<td>With Oden on Our Side</td>
+<td>2006</td>
+<td><a href="Oden.html">Click Here!</td>
+</tr>
+<td>Twilight of the Thunder God</td>
+<td>2008</td>
+<td><a href="Twilight.html">Click Here!</td>
+</tr>
+<td>Surtur Rising</td>
+<td>2011</td>
+<td><a href="Surtur.html">Click Here!</td>
+</tr>
+<td>Deciever of the Gods</td>
+<td>2013</td>
+<td><a href="Deceiver.html">Click Here!</td>
+</tr>
+<td>Jomsviking</td>
+<td>2016</td>
+<td><a href="Jomsviking.html">Click Here!</td>
+</tr>
+<td>Berserker</td>
+<td>2019</td>
+<td><a href="Berserker.html">Click Here!</td>
+</tr>
+</table>
+</section>
+</article>
+</body>
+<!--Website Creator INFO-->
+<footer>Made By Dan Jacques Multimedia Coursework 2 P2610262 Email:P2610262@my365.dmu.ac.uk</footer>
+</html>
+<!-- End HTML -->
